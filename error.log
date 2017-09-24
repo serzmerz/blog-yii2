@@ -1,0 +1,207 @@
+2017/09/21 18:37:24 [error] 1204#1204: *236 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/serz/WorkProjects/blog-yii2/vendor/yiisoft/yii2/log/Logger.php on line 148" while reading response header from upstream, client: 127.0.0.1, server: blog-yii2.loc, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "blog-yii2.loc"
+2017/09/21 18:40:09 [error] 1204#1204: *242 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/serz/WorkProjects/blog-yii2/vendor/yiisoft/yii2/log/Logger.php on line 148" while reading response header from upstream, client: 127.0.0.1, server: blog-yii2.loc, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "blog-yii2.loc"
+2017/09/21 18:45:05 [error] 1204#1204: *244 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/serz/WorkProjects/blog-yii2/vendor/yiisoft/yii2/log/Logger.php on line 161" while reading response header from upstream, client: 127.0.0.1, server: blog-yii2.loc, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "blog-yii2.loc"
+2017/09/24 22:04:20 [error] 1212#1212: *95 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidRouteException: Unable to resolve the request "site/error". in /home/serz/WorkProjects/blog-yii2/vendor/yiisoft/yii2/base/Module.php:532
+Stack trace:
+#0 /home/serz/WorkProjects/blog-yii2/vendor/yiisoft/yii2/web/ErrorHandler.php(97): yii\base\Module->runAction('site/error')
+#1 /home/serz/WorkProjects/blog-yii2/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#2 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#3 {main}
+Previous exception:
+yii\base\InvalidRouteException: Unable to resolve the request "site/index". in /home/serz/WorkProjects/blog-yii2/vendor/yiisoft/yii2/base/Module.php:532
+Stack trace:
+#0 /home/serz/WorkProjects/blog-yii2/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('site/index', Array)
+#1 /home/serz/WorkProjects/blog-yii2/vendor/yiisoft/yii2/base/Application.php(" while reading upstream, client: 127.0.0.1, server: blog-yii2.loc, request: "GET /site/index HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "blog-yii2.loc", referrer: "http://blog-yii2.loc/post/index"
+2017/09/24 22:04:30 [error] 1212#1212: *95 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidRouteException: Unable to resolve the request "site/error". in /home/serz/WorkProjects/blog-yii2/vendor/yiisoft/yii2/base/Module.php:532
+Stack trace:
+#0 /home/serz/WorkProjects/blog-yii2/vendor/yiisoft/yii2/web/ErrorHandler.php(97): yii\base\Module->runAction('site/error')
+#1 /home/serz/WorkProjects/blog-yii2/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#2 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#3 {main}
+Previous exception:
+yii\base\InvalidRouteException: Unable to resolve the request "". in /home/serz/WorkProjects/blog-yii2/vendor/yiisoft/yii2/base/Module.php:532
+Stack trace:
+#0 /home/serz/WorkProjects/blog-yii2/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('', Array)
+#1 /home/serz/WorkProjects/blog-yii2/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Applic" while reading upstream, client: 127.0.0.1, server: blog-yii2.loc, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "blog-yii2.loc"
+2017/09/24 22:05:26 [error] 1212#1212: *95 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidRouteException: Unable to resolve the request "site/error". in /home/serz/WorkProjects/blog-yii2/vendor/yiisoft/yii2/base/Module.php:532
+Stack trace:
+#0 /home/serz/WorkProjects/blog-yii2/vendor/yiisoft/yii2/web/ErrorHandler.php(97): yii\base\Module->runAction('site/error')
+#1 /home/serz/WorkProjects/blog-yii2/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#2 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#3 {main}
+Previous exception:
+yii\base\InvalidRouteException: Unable to resolve the request "site/index". in /home/serz/WorkProjects/blog-yii2/vendor/yiisoft/yii2/base/Module.php:532
+Stack trace:
+#0 /home/serz/WorkProjects/blog-yii2/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('site/index', Array)
+#1 /home/serz/WorkProjects/blog-yii2/vendor/yiisoft/yii2/base/Application.php(" while reading upstream, client: 127.0.0.1, server: blog-yii2.loc, request: "GET /site/index HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "blog-yii2.loc", referrer: "http://blog-yii2.loc/"
+2017/09/24 22:07:29 [error] 1212#1212: *106 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidRouteException: Unable to resolve the request "site/error". in /home/serz/WorkProjects/blog-yii2/vendor/yiisoft/yii2/base/Module.php:532
+Stack trace:
+#0 /home/serz/WorkProjects/blog-yii2/vendor/yiisoft/yii2/web/ErrorHandler.php(97): yii\base\Module->runAction('site/error')
+#1 /home/serz/WorkProjects/blog-yii2/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#2 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#3 {main}
+Previous exception:
+yii\base\InvalidRouteException: Unable to resolve the request "admin/index". in /home/serz/WorkProjects/blog-yii2/vendor/yiisoft/yii2/base/Module.php:532
+Stack trace:
+#0 /home/serz/WorkProjects/blog-yii2/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('admin/index', Array)
+#1 /home/serz/WorkProjects/blog-yii2/vendor/yiisoft/yii2/base/Application.ph" while reading upstream, client: 127.0.0.1, server: blog-yii2.loc, request: "GET /admin/index HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "blog-yii2.loc", referrer: "http://blog-yii2.loc/post/index"
+2017/09/24 22:07:54 [error] 1212#1212: *106 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidRouteException: Unable to resolve the request "site/error". in /home/serz/WorkProjects/blog-yii2/vendor/yiisoft/yii2/base/Module.php:532
+Stack trace:
+#0 /home/serz/WorkProjects/blog-yii2/vendor/yiisoft/yii2/web/ErrorHandler.php(97): yii\base\Module->runAction('site/error')
+#1 /home/serz/WorkProjects/blog-yii2/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#2 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#3 {main}
+Previous exception:
+yii\base\InvalidRouteException: Unable to resolve the request "admin/index". in /home/serz/WorkProjects/blog-yii2/vendor/yiisoft/yii2/base/Module.php:532
+Stack trace:
+#0 /home/serz/WorkProjects/blog-yii2/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('admin/index', Array)
+#1 /home/serz/WorkProjects/blog-yii2/vendor/yiisoft/yii2/base/Application.ph" while reading upstream, client: 127.0.0.1, server: blog-yii2.loc, request: "GET /admin/index HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "blog-yii2.loc", referrer: "http://blog-yii2.loc/post/index"
+2017/09/24 22:10:35 [error] 1212#1212: *136 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidRouteException: Unable to resolve the request "site/error". in /home/serz/WorkProjects/blog-yii2/vendor/yiisoft/yii2/base/Module.php:532
+Stack trace:
+#0 /home/serz/WorkProjects/blog-yii2/vendor/yiisoft/yii2/web/ErrorHandler.php(97): yii\base\Module->runAction('site/error')
+#1 /home/serz/WorkProjects/blog-yii2/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#2 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#3 {main}
+Previous exception:
+yii\base\InvalidRouteException: Unable to resolve the request "admin". in /home/serz/WorkProjects/blog-yii2/vendor/yiisoft/yii2/base/Module.php:532
+Stack trace:
+#0 /home/serz/WorkProjects/blog-yii2/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('admin', Array)
+#1 /home/serz/WorkProjects/blog-yii2/vendor/yiisoft/yii2/base/Application.php(380): yii\" while reading upstream, client: 127.0.0.1, server: blog-yii2.loc, request: "GET /admin HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "blog-yii2.loc"
+2017/09/24 22:11:45 [error] 1212#1212: *146 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidRouteException: Unable to resolve the request "site/error". in /home/serz/WorkProjects/blog-yii2/vendor/yiisoft/yii2/base/Module.php:532
+Stack trace:
+#0 /home/serz/WorkProjects/blog-yii2/vendor/yiisoft/yii2/web/ErrorHandler.php(97): yii\base\Module->runAction('site/error')
+#1 /home/serz/WorkProjects/blog-yii2/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#2 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#3 {main}
+Previous exception:
+yii\base\InvalidRouteException: Unable to resolve the request "admin". in /home/serz/WorkProjects/blog-yii2/vendor/yiisoft/yii2/base/Module.php:532
+Stack trace:
+#0 /home/serz/WorkProjects/blog-yii2/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('admin', Array)
+#1 /home/serz/WorkProjects/blog-yii2/vendor/yiisoft/yii2/base/Application.php(380): yii\" while reading upstream, client: 127.0.0.1, server: blog-yii2.loc, request: "GET /admin HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "blog-yii2.loc"
+2017/09/24 22:11:46 [error] 1212#1212: *146 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidRouteException: Unable to resolve the request "site/error". in /home/serz/WorkProjects/blog-yii2/vendor/yiisoft/yii2/base/Module.php:532
+Stack trace:
+#0 /home/serz/WorkProjects/blog-yii2/vendor/yiisoft/yii2/web/ErrorHandler.php(97): yii\base\Module->runAction('site/error')
+#1 /home/serz/WorkProjects/blog-yii2/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#2 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#3 {main}
+Previous exception:
+yii\base\InvalidRouteException: Unable to resolve the request "admin". in /home/serz/WorkProjects/blog-yii2/vendor/yiisoft/yii2/base/Module.php:532
+Stack trace:
+#0 /home/serz/WorkProjects/blog-yii2/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('admin', Array)
+#1 /home/serz/WorkProjects/blog-yii2/vendor/yiisoft/yii2/base/Application.php(380): yii\" while reading upstream, client: 127.0.0.1, server: blog-yii2.loc, request: "GET /admin HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "blog-yii2.loc"
+2017/09/24 22:12:14 [error] 1212#1212: *146 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidRouteException: Unable to resolve the request "site/error". in /home/serz/WorkProjects/blog-yii2/vendor/yiisoft/yii2/base/Module.php:532
+Stack trace:
+#0 /home/serz/WorkProjects/blog-yii2/vendor/yiisoft/yii2/web/ErrorHandler.php(97): yii\base\Module->runAction('site/error')
+#1 /home/serz/WorkProjects/blog-yii2/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#2 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#3 {main}
+Previous exception:
+yii\base\InvalidRouteException: Unable to resolve the request "admin". in /home/serz/WorkProjects/blog-yii2/vendor/yiisoft/yii2/base/Module.php:532
+Stack trace:
+#0 /home/serz/WorkProjects/blog-yii2/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('admin', Array)
+#1 /home/serz/WorkProjects/blog-yii2/vendor/yiisoft/yii2/base/Application.php(380): yii\" while reading upstream, client: 127.0.0.1, server: blog-yii2.loc, request: "GET /admin HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "blog-yii2.loc"
+2017/09/24 22:12:14 [error] 1212#1212: *146 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidRouteException: Unable to resolve the request "site/error". in /home/serz/WorkProjects/blog-yii2/vendor/yiisoft/yii2/base/Module.php:532
+Stack trace:
+#0 /home/serz/WorkProjects/blog-yii2/vendor/yiisoft/yii2/web/ErrorHandler.php(97): yii\base\Module->runAction('site/error')
+#1 /home/serz/WorkProjects/blog-yii2/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#2 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#3 {main}
+Previous exception:
+yii\base\InvalidRouteException: Unable to resolve the request "admin". in /home/serz/WorkProjects/blog-yii2/vendor/yiisoft/yii2/base/Module.php:532
+Stack trace:
+#0 /home/serz/WorkProjects/blog-yii2/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('admin', Array)
+#1 /home/serz/WorkProjects/blog-yii2/vendor/yiisoft/yii2/base/Application.php(380): yii\" while reading upstream, client: 127.0.0.1, server: blog-yii2.loc, request: "GET /admin HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "blog-yii2.loc"
+2017/09/24 22:12:14 [error] 1212#1212: *146 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidRouteException: Unable to resolve the request "site/error". in /home/serz/WorkProjects/blog-yii2/vendor/yiisoft/yii2/base/Module.php:532
+Stack trace:
+#0 /home/serz/WorkProjects/blog-yii2/vendor/yiisoft/yii2/web/ErrorHandler.php(97): yii\base\Module->runAction('site/error')
+#1 /home/serz/WorkProjects/blog-yii2/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#2 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#3 {main}
+Previous exception:
+yii\base\InvalidRouteException: Unable to resolve the request "admin". in /home/serz/WorkProjects/blog-yii2/vendor/yiisoft/yii2/base/Module.php:532
+Stack trace:
+#0 /home/serz/WorkProjects/blog-yii2/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('admin', Array)
+#1 /home/serz/WorkProjects/blog-yii2/vendor/yiisoft/yii2/base/Application.php(380): yii\" while reading upstream, client: 127.0.0.1, server: blog-yii2.loc, request: "GET /admin HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "blog-yii2.loc"
+2017/09/24 22:12:23 [error] 1212#1212: *146 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidRouteException: Unable to resolve the request "site/error". in /home/serz/WorkProjects/blog-yii2/vendor/yiisoft/yii2/base/Module.php:532
+Stack trace:
+#0 /home/serz/WorkProjects/blog-yii2/vendor/yiisoft/yii2/web/ErrorHandler.php(97): yii\base\Module->runAction('site/error')
+#1 /home/serz/WorkProjects/blog-yii2/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#2 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#3 {main}
+Previous exception:
+yii\base\InvalidRouteException: Unable to resolve the request "admin/default/index". in /home/serz/WorkProjects/blog-yii2/vendor/yiisoft/yii2/base/Module.php:532
+Stack trace:
+#0 /home/serz/WorkProjects/blog-yii2/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('admin/default/i...', Array)
+#1 /home/serz/WorkProjects/blog-yii2/vendor/yiisoft/yii2/base" while reading upstream, client: 127.0.0.1, server: blog-yii2.loc, request: "GET /admin/default/index HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "blog-yii2.loc"
+2017/09/24 22:13:57 [error] 1212#1212: *153 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidRouteException: Unable to resolve the request "site/error". in /home/serz/WorkProjects/blog-yii2/vendor/yiisoft/yii2/base/Module.php:532
+Stack trace:
+#0 /home/serz/WorkProjects/blog-yii2/vendor/yiisoft/yii2/web/ErrorHandler.php(97): yii\base\Module->runAction('site/error')
+#1 /home/serz/WorkProjects/blog-yii2/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#2 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#3 {main}
+Previous exception:
+yii\base\InvalidRouteException: Unable to resolve the request "admin/default/index". in /home/serz/WorkProjects/blog-yii2/vendor/yiisoft/yii2/base/Module.php:532
+Stack trace:
+#0 /home/serz/WorkProjects/blog-yii2/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('admin/default/i...', Array)
+#1 /home/serz/WorkProjects/blog-yii2/vendor/yiisoft/yii2/base" while reading upstream, client: 127.0.0.1, server: blog-yii2.loc, request: "GET /admin/default/index HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "blog-yii2.loc"
+2017/09/24 22:15:18 [error] 1212#1212: *153 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidRouteException: Unable to resolve the request "site/error". in /home/serz/WorkProjects/blog-yii2/vendor/yiisoft/yii2/base/Module.php:532
+Stack trace:
+#0 /home/serz/WorkProjects/blog-yii2/vendor/yiisoft/yii2/web/ErrorHandler.php(97): yii\base\Module->runAction('site/error')
+#1 /home/serz/WorkProjects/blog-yii2/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#2 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#3 {main}
+Previous exception:
+yii\base\InvalidRouteException: Unable to resolve the request: user/default/account/index in /home/serz/WorkProjects/blog-yii2/vendor/yiisoft/yii2/base/Controller.php:127
+Stack trace:
+#0 /home/serz/WorkProjects/blog-yii2/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('account/index', Array)
+#1 /home/serz/WorkProjects/blog-yii2/vendor/yiisoft/yii2/" while reading upstream, client: 127.0.0.1, server: blog-yii2.loc, request: "GET /user/account/index HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "blog-yii2.loc", referrer: "http://blog-yii2.loc/post/index"
+2017/09/24 22:15:25 [error] 1212#1212: *153 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidRouteException: Unable to resolve the request "site/error". in /home/serz/WorkProjects/blog-yii2/vendor/yiisoft/yii2/base/Module.php:532
+Stack trace:
+#0 /home/serz/WorkProjects/blog-yii2/vendor/yiisoft/yii2/web/ErrorHandler.php(97): yii\base\Module->runAction('site/error')
+#1 /home/serz/WorkProjects/blog-yii2/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#2 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#3 {main}
+Previous exception:
+yii\base\InvalidRouteException: Unable to resolve the request: user/default/account/index in /home/serz/WorkProjects/blog-yii2/vendor/yiisoft/yii2/base/Controller.php:127
+Stack trace:
+#0 /home/serz/WorkProjects/blog-yii2/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('account/index', Array)
+#1 /home/serz/WorkProjects/blog-yii2/vendor/yiisoft/yii2/" while reading upstream, client: 127.0.0.1, server: blog-yii2.loc, request: "GET /user/account/index HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "blog-yii2.loc", referrer: "http://blog-yii2.loc/post/index"
+2017/09/24 22:23:07 [error] 1212#1212: *216 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidRouteException: Unable to resolve the request "site/error". in /home/serz/WorkProjects/blog-yii2/vendor/yiisoft/yii2/base/Module.php:532
+Stack trace:
+#0 /home/serz/WorkProjects/blog-yii2/vendor/yiisoft/yii2/web/ErrorHandler.php(97): yii\base\Module->runAction('site/error')
+#1 /home/serz/WorkProjects/blog-yii2/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\ForbiddenHttpException))
+#2 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\ForbiddenHttpException))
+#3 {main}
+Previous exception:
+yii\web\ForbiddenHttpException: You are not allowed to perform this action. in /home/serz/WorkProjects/blog-yii2/vendor/amnah/yii2-user/controllers/AdminController.php:33
+Stack trace:
+#0 /home/serz/WorkProjects/blog-yii2/vendor/yiisoft/yii2/base/Object.php(107): amnah\yii2\user\controllers\AdminController->init()
+#1 /home/serz/WorkProjects/blog-yii2/vendor/yiisoft/yii2/b" while reading upstream, client: 127.0.0.1, server: blog-yii2.loc, request: "GET /user/admin HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "blog-yii2.loc", referrer: "http://blog-yii2.loc/user"
+2017/09/24 22:25:59 [error] 1212#1212: *244 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidRouteException: Unable to resolve the request: site/error in /home/serz/WorkProjects/blog-yii2/vendor/yiisoft/yii2/base/Controller.php:127
+Stack trace:
+#0 /home/serz/WorkProjects/blog-yii2/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('error', Array)
+#1 /home/serz/WorkProjects/blog-yii2/vendor/yiisoft/yii2/web/ErrorHandler.php(97): yii\base\Module->runAction('site/error')
+#2 /home/serz/WorkProjects/blog-yii2/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\ForbiddenHttpException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\ForbiddenHttpException))
+#4 {main}
+Previous exception:
+yii\web\ForbiddenHttpException: You are not allowed to perform this action. in /home/serz/WorkProjects/blog-yii2/vendor/amnah/yii2-user/controllers/AdminController.php:33
+Stack trace:
+#0 /home/serz/WorkProjects/blog-yii2/vendor/yiisoft/yii2/base" while reading upstream, client: 127.0.0.1, server: blog-yii2.loc, request: "GET /user/admin HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "blog-yii2.loc", referrer: "http://blog-yii2.loc/user"
